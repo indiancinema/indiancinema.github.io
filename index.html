@@ -8,6 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   </head>
   <body>
     <section class="page-header">
@@ -37,7 +39,67 @@
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div id="geochart-colors" style="width: 800px; height: 480px;"></div>
+<script>
+  
+  google.charts.load('current', {
+        'packages': ['geochart']
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
 
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['State', 'Number of screens per million'],
+          ['Andhra Pradesh', 2809/84.7],
+          ['Arunachal Pradesh', 1/1.4],
+          ['Assam', 82/31.2],
+          ['Bihar', 269/103.8],
+          ['IN-CT', 51/25.5],
+          ['Goa', 10/1.5],
+          ['Delhi', 80/11],
+          ['Gujarat', 291/60.4],
+          ['Haryana', 106/25.3],
+          ['Himachal Pradesh', 10/6.8],
+          ['Jammu and Kashmir', 267/12.5],
+          ['Andaman and Nicobar islands', 1/0.4],
+          ['Jharkhand', 90/33],
+          ['Karnataka', 950/61.1],
+          ['Kerala', 1015/33.4],
+          ['Madhya Pradesh', 150/72.6],
+          ['Maharashtra', 610/112.4],
+          ['Manipur', 10/2.7],
+          ['Meghalaya', 7/3.0],
+          ['Mizoram', 2/1.1],
+          ['Nagaland', 4/2.0],
+          ['Orissa', 116/41.9],
+          ['Pondicherry', 25/1.2],
+          ['Punjab', 175/27.7],
+          ['Rajasthan', 133/68.6],
+          ['Sikkim', 2/0.6],
+          ['Tamil Nadu', 1546/72.1],
+          ['Tripura', 1/3.7],
+          ['Uttar Pradesh', 970/200],
+          ['IN-UT', 46/10.1],
+          ['West Bengal', 330/91.3],
+          ['IN-DN', 2/0.3]
+        ]);
+
+        var options = {
+          region: 'IN', // Africa
+          resolution: 'provinces',
+          // colorAxis: {
+          //   colors: ['#00853f', 'black', '#e31b23']
+          // },
+          backgroundColor: '#81d4fa',
+          datalessRegionColor: '#f8bbd0',
+          defaultColor: '#f5f5f5',
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('geochart-colors'));
+        chart.draw(data, options);
+      };
+
+</script>
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
