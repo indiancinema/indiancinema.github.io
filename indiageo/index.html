@@ -19,6 +19,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoieW5hbnlhbSIsImEiOiJjaW5sNHZhbmEweXEydHRtMzM2MWp2bTR3In0.fMPtEVTjb9Sm4nW5g-sntQ'
 }).addTo(mymap);
 
+L.geoJson(statesData).addTo(mymap);
+
 </script>  
 </body>
 </html>
