@@ -12,14 +12,27 @@
 <style>#mapid { height: 800px; width: 800px; margin-left: auto; margin-right: auto; top: 100px;}</style>
 <script>
 var mymap = L.map('mapid').setView([21.25, 82.00], 5);
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+mymap.createPane('labels');
+mymap.getPane('labels').style.zIndex = 650;
+map.getPane('labels').style.pointerEvents = 'none';
+var positron = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.light',
     accessToken: 'pk.eyJ1IjoieW5hbnlhbSIsImEiOiJjaW5sNHZhbmEweXEydHRtMzM2MWp2bTR3In0.fMPtEVTjb9Sm4nW5g-sntQ'
 }).addTo(mymap);
 
-L.geoJson(statesData).addTo(mymap);
+var positronLabels = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.light',
+    accessToken: 'pk.eyJ1IjoieW5hbnlhbSIsImEiOiJjaW5sNHZhbmEweXEydHRtMzM2MWp2bTR3In0.fMPtEVTjb9Sm4nW5g-sntQ'
+    pane: 'labels'
+}).addTo(mymap);
+
+L.geoJson(statesData, geoJsonOptions).addTo(mymap);
+
+
 </script>  
 </body>
 </html>
