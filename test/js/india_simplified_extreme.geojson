@@ -14,7 +14,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 1,
-        "NAME_1": "Andaman and Nicobar"
+        "NAME_1": "Andaman and Nicobar",
+        "screen": 2.5
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2725,7 +2726,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 36,
-        "NAME_1": "Telangana"
+        "NAME_1": "Telangana",
+        "screen": 33.164
       },
       "geometry": {
         "type": "Polygon",
@@ -3070,7 +3072,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 2,
-        "NAME_1": "Andhra Pradesh"
+        "NAME_1": "Andhra Pradesh",
+        "screen": 33.164
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4053,7 +4056,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 3,
-        "NAME_1": "Arunachal Pradesh"
+        "NAME_1": "Arunachal Pradesh",
+        "screen": 0.714
       },
       "geometry": {
         "type": "Polygon",
@@ -4382,7 +4386,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 4,
-        "NAME_1": "Assam"
+        "NAME_1": "Assam",
+        "screen": 2.628
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4769,7 +4774,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 5,
-        "NAME_1": "Bihar"
+        "NAME_1": "Bihar",
+        "screen": 2.592
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5164,7 +5170,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 6,
-        "NAME_1": "Chandigarh"
+        "NAME_1": "Chandigarh",
+        "screen": 7.5
       },
       "geometry": {
         "type": "Polygon",
@@ -5197,7 +5204,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 7,
-        "NAME_1": "Chhattisgarh"
+        "NAME_1": "Chhattisgarh",
+        "screen": 2.0
       },
       "geometry": {
         "type": "Polygon",
@@ -5598,7 +5606,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 8,
-        "NAME_1": "Dadra and Nagar Haveli"
+        "NAME_1": "Dadra and Nagar Haveli",
+        "screen": 5.88
       },
       "geometry": {
         "type": "Polygon",
@@ -5655,7 +5664,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 9,
-        "NAME_1": "Daman and Diu"
+        "NAME_1": "Daman and Diu",
+        "screen": 4.17
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5742,7 +5752,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 10,
-        "NAME_1": "Delhi"
+        "NAME_1": "Delhi",
+        "screen": 7.273
       },
       "geometry": {
         "type": "Polygon",
@@ -5799,7 +5810,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 11,
-        "NAME_1": "Goa"
+        "NAME_1": "Goa",
+        "screen": 6.667
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5910,7 +5922,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 12,
-        "NAME_1": "Gujarat"
+        "NAME_1": "Gujarat",
+        "screen": 4.818
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8721,7 +8734,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 13,
-        "NAME_1": "Haryana"
+        "NAME_1": "Haryana",
+        "screen": 4.19
       },
       "geometry": {
         "type": "Polygon",
@@ -9026,7 +9040,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 14,
-        "NAME_1": "Himachal Pradesh"
+        "NAME_1": "Himachal Pradesh",
+        "screen": 1.471
       },
       "geometry": {
         "type": "Polygon",
@@ -9267,7 +9282,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 15,
-        "NAME_1": "Jammu and Kashmir"
+        "NAME_1": "Jammu and Kashmir",
+        "screen": 21.36
       },
       "geometry": {
         "type": "Polygon",
@@ -9588,7 +9604,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 16,
-        "NAME_1": "Jharkhand"
+        "NAME_1": "Jharkhand",
+        "screen": 2.727
       },
       "geometry": {
         "type": "Polygon",
@@ -9965,7 +9982,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 17,
-        "NAME_1": "Karnataka"
+        "NAME_1": "Karnataka",
+        "screen": 15.548
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10804,7 +10822,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 18,
-        "NAME_1": "Kerala"
+        "NAME_1": "Kerala",
+        "screen": 30.389
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11591,7 +11610,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 19,
-        "NAME_1": "Lakshadweep"
+        "NAME_1": "Lakshadweep",
+        "screen": 0
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11894,7 +11914,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 20,
-        "NAME_1": "Madhya Pradesh"
+        "NAME_1": "Madhya Pradesh",
+        "screen": 2.067
       },
       "geometry": {
         "type": "Polygon",
@@ -12855,7 +12876,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 21,
-        "NAME_1": "Maharashtra"
+        "NAME_1": "Maharashtra", 
+        "screen": 5.427
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13770,7 +13792,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 22,
-        "NAME_1": "Manipur"
+        "NAME_1": "Manipur",
+        "screen": 3.704
       },
       "geometry": {
         "type": "Polygon",
@@ -13875,7 +13898,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 23,
-        "NAME_1": "Meghalaya"
+        "NAME_1": "Meghalaya",
+        "screen": 2.333
       },
       "geometry": {
         "type": "Polygon",
@@ -14012,7 +14036,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 24,
-        "NAME_1": "Mizoram"
+        "NAME_1": "Mizoram",
+        "screen": 1.818
       },
       "geometry": {
         "type": "Polygon",
@@ -14149,7 +14174,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 25,
-        "NAME_1": "Nagaland"
+        "NAME_1": "Nagaland",
+        "screen": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -14302,7 +14328,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 26,
-        "NAME_1": "Orissa"
+        "NAME_1": "Orissa",
+        "screen": 2.768
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15385,7 +15412,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 27,
-        "NAME_1": "Puducherry"
+        "NAME_1": "Puducherry",
+        "screen": 20.83
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15520,7 +15548,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 28,
-        "NAME_1": "Punjab"
+        "NAME_1": "Punjab",
+        "screen": 6.318
       },
       "geometry": {
         "type": "Polygon",
@@ -15761,7 +15790,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 29,
-        "NAME_1": "Rajasthan"
+        "NAME_1": "Rajasthan",
+        "screen": 1.939
       },
       "geometry": {
         "type": "Polygon",
@@ -16538,7 +16568,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 30,
-        "NAME_1": "Sikkim"
+        "NAME_1": "Sikkim",
+        "screen": 3.333
       },
       "geometry": {
         "type": "Polygon",
@@ -16611,7 +16642,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 31,
-        "NAME_1": "Tamil Nadu"
+        "NAME_1": "Tamil Nadu",
+        "screen": 21.442
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17678,7 +17710,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 32,
-        "NAME_1": "Tripura"
+        "NAME_1": "Tripura",
+        "screen": 0.27
       },
       "geometry": {
         "type": "Polygon",
@@ -17799,7 +17832,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 33,
-        "NAME_1": "Uttar Pradesh"
+        "NAME_1": "Uttar Pradesh",
+        "screen": 4.85
       },
       "geometry": {
         "type": "Polygon",
@@ -18456,7 +18490,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 34,
-        "NAME_1": "Uttaranchal"
+        "NAME_1": "Uttaranchal",
+        "screen": 4.554
       },
       "geometry": {
         "type": "Polygon",
@@ -18665,7 +18700,8 @@ var = statesData {
         "ISO": "IND",
         "NAME_0": "India",
         "ID_1": 35,
-        "NAME_1": "West Bengal"
+        "NAME_1": "West Bengal",
+        "screen": 3.614
       },
       "geometry": {
         "type": "MultiPolygon",
