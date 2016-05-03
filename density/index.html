@@ -67,11 +67,11 @@
         [,,,,,,]
         function getColor(d) {
             return d > 1000 ? '#d73027' :
-                   d > 700 ? '#fc8d59' :
-                   d > 500 ?  '#fee08b' :
-                   d > 200 ? '#ffffbf' :
-                   d > 100 ? '#d9ef8b' :
-                   d > 50 ? '#91cf60' :
+                   d > 800 ? '#fc8d59' :
+                   d > 600 ?  '#fee08b' :
+                 //  d > 200 ? '#ffffbf' :
+                   d > 400 ? '#d9ef8b' :
+                   d > 200 ? '#91cf60' :
                    d > 0 ?  '#1a9850' :
                               '#FFFFCC';
         }
@@ -121,7 +121,7 @@
         var legend = L.control({ position: 'bottomleft' });
         legend.onAdd = function (map) {
             var div = L.DomUtil.create('div', 'info legend'),
-				grades = [0, 50, 100, 200, 500, 700, 1000],
+				grades = [0, 200, 400, 600, 800, 1000],
 				labels = [],
 				from, to;
             for (var i = 0; i < grades.length; i++) {
