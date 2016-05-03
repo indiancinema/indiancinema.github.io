@@ -59,8 +59,8 @@
             return this._div;
         };
         info.update = function (props) {
-            this._div.innerHTML = '<h4>India screen Density</h4>' + (props ?
-				'<b>' + props.NAME_1 + '</b><br />' + props.screen + ' screens / million population '
+            this._div.innerHTML = '<h4>India Density</h4>' + (props ?
+				'<b>' + props.NAME_1 + '</b><br />' + props.density + '  /km<sup>2</sup> '
 				: 'Hover over a state');
         };
         info.addTo(mymap);
@@ -78,7 +78,7 @@
         
         function style(feature) {
             return {
-                fillColor: getColor(feature.properties.screen),
+                fillColor: getColor(feature.properties.density),
                 weight: 2,
                 opacity: 1,
                 color: 'white',
