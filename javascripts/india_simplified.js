@@ -16,7 +16,8 @@ var statesData  = {
         "ID_1": 1,
         "NAME_1": "Andaman and Nicobar",
         "screen": 2.5,
-        "density": 46
+        "density": 46,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "MultiPolygon",
