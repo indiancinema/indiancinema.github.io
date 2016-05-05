@@ -2729,7 +2729,8 @@ var statesData  = {
         "ID_1": 36,
         "NAME_1": "Telangana",
         "screen": 33.164,
-        "density": 307
+        "density": 307,
+        "Language": "Telugu"
       },
       "geometry": {
         "type": "Polygon",
@@ -3076,7 +3077,8 @@ var statesData  = {
         "ID_1": 2,
         "NAME_1": "Andhra Pradesh",
         "screen": 33.164,
-        "density": 308
+        "density": 308,
+        "Language": "Telugu"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4061,7 +4063,8 @@ var statesData  = {
         "ID_1": 3,
         "NAME_1": "Arunachal Pradesh",
         "screen": 0.714,
-        "density": 17
+        "density": 17,
+        "Language": "English"
       },
       "geometry": {
         "type": "Polygon",
@@ -4392,7 +4395,8 @@ var statesData  = {
         "ID_1": 4,
         "NAME_1": "Assam",
         "screen": 2.628,
-        "density": 397
+        "density": 397,
+        "Language": "Assamese"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4781,7 +4785,8 @@ var statesData  = {
         "ID_1": 5,
         "NAME_1": "Bihar",
         "screen": 2.592,
-        "density": 1102
+        "density": 1102,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5178,7 +5183,8 @@ var statesData  = {
         "ID_1": 6,
         "NAME_1": "Chandigarh",
         "screen": 7.5,
-        "density": 9252
+        "density": 9252,
+        "Language": "English"
       },
       "geometry": {
         "type": "Polygon",
@@ -5213,7 +5219,8 @@ var statesData  = {
         "ID_1": 7,
         "NAME_1": "Chhattisgarh",
         "screen": 2.0,
-        "density": 189
+        "density": 189,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -5616,7 +5623,8 @@ var statesData  = {
         "ID_1": 8,
         "NAME_1": "Dadra and Nagar Haveli",
         "screen": 5.88,
-        "density": 698
+        "density": 698,
+        "Language": "Marathi"
       },
       "geometry": {
         "type": "Polygon",
@@ -5675,7 +5683,8 @@ var statesData  = {
         "ID_1": 9,
         "NAME_1": "Daman and Diu",
         "screen": 4.17,
-        "density": 2196
+        "density": 2196,
+        "Language": "Konkani"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5764,7 +5773,8 @@ var statesData  = {
         "ID_1": 10,
         "NAME_1": "Delhi",
         "screen": 7.273,
-        "density": 11297
+        "density": 11297,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -5823,7 +5833,8 @@ var statesData  = {
         "ID_1": 11,
         "NAME_1": "Goa",
         "screen": 6.667,
-        "density": 394
+        "density": 394,
+        "Language": "Konkani"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -5936,7 +5947,8 @@ var statesData  = {
         "ID_1": 12,
         "NAME_1": "Gujarat",
         "screen": 4.818,
-        "density": 308
+        "density": 308,
+        "Language": "Gujarati"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8749,7 +8761,8 @@ var statesData  = {
         "ID_1": 13,
         "NAME_1": "Haryana",
         "screen": 4.19,
-        "density": 573
+        "density": 573,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -9056,7 +9069,8 @@ var statesData  = {
         "ID_1": 14,
         "NAME_1": "Himachal Pradesh",
         "screen": 1.471,
-        "density": 123
+        "density": 123,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -9299,7 +9313,8 @@ var statesData  = {
         "ID_1": 15,
         "NAME_1": "Jammu and Kashmir",
         "screen": 21.36,
-        "density": 56
+        "density": 56,
+        "Language": "Urdu"
       },
       "geometry": {
         "type": "Polygon",
@@ -9622,7 +9637,8 @@ var statesData  = {
         "ID_1": 16,
         "NAME_1": "Jharkhand",
         "screen": 2.727,
-        "density": 414
+        "density": 414,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -10001,7 +10017,8 @@ var statesData  = {
         "ID_1": 17,
         "NAME_1": "Karnataka",
         "screen": 15.548,
-        "density": 319
+        "density": 319,
+        "Language": "Kannada"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10842,7 +10859,8 @@ var statesData  = {
         "ID_1": 18,
         "NAME_1": "Kerala",
         "screen": 30.389,
-        "density": 859
+        "density": 859,
+        "Language": "Malayalam"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11631,7 +11649,8 @@ var statesData  = {
         "ID_1": 19,
         "NAME_1": "Lakshadweep",
         "screen": 0,
-        "density": 2013
+        "density": 2013,
+        "Language": "Malayalam"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11936,7 +11955,8 @@ var statesData  = {
         "ID_1": 20,
         "NAME_1": "Madhya Pradesh",
         "screen": 2.067,
-        "density": 236
+        "density": 236,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -12899,7 +12919,8 @@ var statesData  = {
         "ID_1": 21,
         "NAME_1": "Maharashtra", 
         "screen": 5.427,
-        "density": 365
+        "density": 365,
+        "Language": "Marathi"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13816,7 +13837,8 @@ var statesData  = {
         "ID_1": 22,
         "NAME_1": "Manipur",
         "screen": 3.704,
-        "density": 122
+        "density": 122,
+        "Language": "Manipuri"
       },
       "geometry": {
         "type": "Polygon",
@@ -13923,7 +13945,8 @@ var statesData  = {
         "ID_1": 23,
         "NAME_1": "Meghalaya",
         "screen": 2.333,
-        "density": 132
+        "density": 132,
+        "Language": "English"
       },
       "geometry": {
         "type": "Polygon",
@@ -14062,7 +14085,8 @@ var statesData  = {
         "ID_1": 24,
         "NAME_1": "Mizoram",
         "screen": 1.818,
-        "density": 52
+        "density": 52,
+        "Language": "Mizo"
       },
       "geometry": {
         "type": "Polygon",
@@ -14201,7 +14225,8 @@ var statesData  = {
         "ID_1": 25,
         "NAME_1": "Nagaland",
         "screen": 2,
-        "density": 119
+        "density": 119,
+        "Language": "English"
       },
       "geometry": {
         "type": "Polygon",
@@ -14356,7 +14381,8 @@ var statesData  = {
         "ID_1": 26,
         "NAME_1": "Orissa",
         "screen": 2.768,
-        "density": 269
+        "density": 269,
+        "Language": "Odia"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15441,7 +15467,8 @@ var statesData  = {
         "ID_1": 27,
         "NAME_1": "Puducherry",
         "screen": 20.83,
-        "density": 2598
+        "density": 2598,
+        "Language": "Tamil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -15578,7 +15605,8 @@ var statesData  = {
         "ID_1": 28,
         "NAME_1": "Punjab",
         "screen": 6.318,
-        "density": 550
+        "density": 550,
+        "Language": "Punjabi"
       },
       "geometry": {
         "type": "Polygon",
@@ -15821,7 +15849,8 @@ var statesData  = {
         "ID_1": 29,
         "NAME_1": "Rajasthan",
         "screen": 1.939,
-        "density": 201
+        "density": 201,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -16600,7 +16629,8 @@ var statesData  = {
         "ID_1": 30,
         "NAME_1": "Sikkim",
         "screen": 3.333,
-        "density": 86
+        "density": 86,
+        "Language": "English"
       },
       "geometry": {
         "type": "Polygon",
@@ -16675,7 +16705,8 @@ var statesData  = {
         "ID_1": 31,
         "NAME_1": "Tamil Nadu",
         "screen": 21.442,
-        "density": 555
+        "density": 555,
+        "Language": "Tamil"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17744,7 +17775,8 @@ var statesData  = {
         "ID_1": 32,
         "NAME_1": "Tripura",
         "screen": 0.27,
-        "density": 350
+        "density": 350,
+        "Language": "Bengali"
       },
       "geometry": {
         "type": "Polygon",
@@ -17867,7 +17899,8 @@ var statesData  = {
         "ID_1": 33,
         "NAME_1": "Uttar Pradesh",
         "screen": 4.85,
-        "density": 828
+        "density": 828,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -18526,7 +18559,8 @@ var statesData  = {
         "ID_1": 34,
         "NAME_1": "Uttaranchal",
         "screen": 4.554,
-        "density": 189
+        "density": 189,
+        "Language": "Hindi"
       },
       "geometry": {
         "type": "Polygon",
@@ -18737,7 +18771,8 @@ var statesData  = {
         "ID_1": 35,
         "NAME_1": "West Bengal",
         "screen": 3.614,
-        "density": 1030
+        "density": 1030,
+        "Language": "Bengali"
       },
       "geometry": {
         "type": "MultiPolygon",
