@@ -5,13 +5,6 @@
 <head>
     <title>A Leaflet map!</title>
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-    <script src="https://rawgit.com/indiancinema/indiancinema.github.io/master/javascripts/india_simplified.js"></script>
-     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-
-</head>
-<body>
-
-    <div id="mapid"></div>
     <style>
         #mapid {
             height: 800px;
@@ -45,6 +38,14 @@
                 opacity: 0.7;
             }
     </style>
+    
+
+</head>
+<body>
+
+    <div id="mapid"></div>
+    <script src="https://rawgit.com/indiancinema/indiancinema.github.io/master/javascripts/india_simplified.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     <script>
         var mymap = L.map('mapid').setView([22.25, 82.00], 5);
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
