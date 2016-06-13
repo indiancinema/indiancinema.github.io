@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Leaflet map!</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <style>
+        #mapid {
+            height: 500px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            top: 50px;
+        }
+        
+    </style>
+    
+
+</head>
+<body>
+
+    <div id="mapid"></div>
+    <script src="https://cdn.rawgit.com/indiancinema/indiancinema.github.io/master/javascripts/india_simplified.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    <script>
+        var mymap = L.map('mapid').setView([22.25, 82.00], 4);
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.dark',
+            accessToken: 'pk.eyJ1IjoieW5hbnlhbSIsImEiOiJjaW5sNHh4YWUweW14dWtseW1veXFqY3d0In0.6B_MlmTRu7g_ASl8AQfDhw'
+        }).addTo(mymap);
+ 
+        
+       
+       
+    
+    </script>
+</body>
+</html>
