@@ -73,7 +73,7 @@
                    d > 10 ? '#a1d99b' :
                    d > 5 ? '#c7e9c0' :
                    d > 0 ?  '#edf8e9' :
-                   d < -0.5 ?  '#bd0026';
+                     '#bd0026';
         }
         
         function style(feature) {
@@ -121,7 +121,7 @@
         var legend = L.control({ position: 'bottomleft' });
         legend.onAdd = function (map) {
             var div = L.DomUtil.create('div', 'info legend'),
-				grades = [-0.5, 0, 5, 10, 15, 20, 25],
+				grades = [ 0, 5, 10, 15, 20, 25],
 				labels = [],
 				from, to;
             for (var i = 0; i < grades.length; i++) {
